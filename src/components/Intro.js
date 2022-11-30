@@ -7,7 +7,7 @@ return (
           <Row>
             <Col> 
             <div className='title'>Welcome to Sydney+.</div>
-            <div className='title'>ENJOY!!!</div>
+            <div className='title'>ENJOY THE MOVIE!!!</div>
             <div className='introButton mt-4 text-center'> 
             <Button variant="dark">Lihat Semua List</Button>
             </div>
