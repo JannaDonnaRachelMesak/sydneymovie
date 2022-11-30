@@ -6,7 +6,7 @@ return (
         <Container className='text-white text-center d-flex justify-content-center align-items-center'>
           <Row>
             <Col> 
-            <div className='title'>Welcome to Sydney Movie</div>
+            <div className='title'>Welcome to Sydney+.</div>
             <div className='title'>ENJOY!!!</div>
             <div className='introButton mt-4 text-center'> 
             <Button variant="dark">Lihat Semua List</Button>
