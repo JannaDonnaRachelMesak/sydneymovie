@@ -5,6 +5,7 @@ import godzillaImage from "../assets/images/trending/Godzilla.jpg"
 import frozenImage from "../assets/images/trending/frosen.jpg"
 import braveImage from "../assets/images/trending/brave.jpg"
 import baymaxImage from "../assets/images/trending/baymax.jpg"
+import fastandforious9 from "../assets/images/trending/fastandforious9.jpg"
 
 const Trending =() => {
     return (
@@ -85,7 +86,18 @@ const Trending =() => {
                          </Card.Text>
                          </Card>
                     </Col>
-                    
+                    <Col md={4} className="movieWrapper">
+                        <Card className="bg-dark text-white movieImage">
+                        <Image src={fastandforious9} alt="Doctor Movies" />
+                        <Card.Title className="text-center">fastandforious9</Card.Title>
+                        <Card.Text className="text-left">
+                        Fast and Furious menceritakan seorang polisi yang menyamar menjadi pembalap jalanan untuk menangkap kelompok pembajakan mobil yang dipimpin oleh Dominic Toretto.
+                         </Card.Text>
+                          <Card.Text className="text-left">Last updated 70 mins ago
+                         </Card.Text>
+                         </Card>
+                    </Col>
+            
                 </Row>
             </Container>
              
